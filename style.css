@@ -17,9 +17,11 @@ div.row {
 }
 
 div.row > img {
-  width: 19%;
+  width: 21%;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-div.row > img:nth-child(2) {
-  margin: 0 4%;
+div.row > img:nth-child(5) {
+  margin: 0 8%;
 }
