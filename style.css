@@ -13,10 +13,11 @@ h1.header {
 
 div.row {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 div.row > img {
-  width: 30%;
+  width: 25%;
 }
 
 div.row > img:nth-child(2) {
