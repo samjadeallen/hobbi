@@ -7,3 +7,7 @@ div.wrapper {
   background: #F35FF8;
   margin: 0 auto;
 }
+
+h1.header {
+  text-align: center;
+}
