@@ -29,6 +29,11 @@ div.row > img {
   width: 21%;
   margin-left: 15px;
   margin-right: 15px;
+  border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    background-size: 280px;
+    background-position: right;
 }
 
 div.row > img:nth-child(5) {
