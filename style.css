@@ -11,13 +11,13 @@ h1.header {
   text-align: center;
 }
 
-p1.about {
+p.about {
   text-align: left;
+  p.home {
+    text-align: right;
+  }
 }
 
-p2.home {
-  text-align: right;
-}
 
 div.row {
   text-align: center;
