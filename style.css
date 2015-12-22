@@ -15,6 +15,10 @@ p1.about {
   text-align: left;
 }
 
+p2.home {
+  text-align: right;
+}
+
 div.row {
   text-align: center;
   margin-top: 25px;
