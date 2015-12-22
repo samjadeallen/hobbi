@@ -11,8 +11,13 @@ h1.header {
   text-align: center;
 }
 
+p1.about {
+  text-align: left;
+}
+
 div.row {
   text-align: center;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
