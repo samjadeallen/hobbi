@@ -42,9 +42,11 @@ div.row > img {
   transition: border-radius 0.2s ease;
 }
 
+
 div.row > img:hover {
   border-radius: 50%;
 }
+
 
 div.row > img:nth-child(5) {
   margin: 0 8%;
