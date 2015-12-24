@@ -30,12 +30,9 @@ div.row {
   margin-bottom: 25px;
 }
 
-div.row > img {
-  width: 21%;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 200px;
-  height: 200px;
+div.row > div > img {
+  width: 100%;
+  height: 100%;
   background-size: 280px;
   background-position: right;
   border-radius: 0;
@@ -50,4 +47,10 @@ div.row > img:hover {
 
 div.row > img:nth-child(5) {
   margin: 0 8%;
+}
+
+div.row > div {
+  width: 200px;
+  height: 200px;
+  float: left;
 }
