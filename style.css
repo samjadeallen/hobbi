@@ -12,15 +12,24 @@ div.row > div > img {
   height: 100%;
   background-size: 280px;
   background-position: right;
+  -webkit-filter: saturate(0%);
   border-radius: 5%;
-  transition: border-radius 0.2s ease;
+  transition: border-radius 0.2s ease, -webkit-filter 0.4s ease;
 }
 
 div.row > div:hover > img {
   border-radius: 50%;
+  -webkit-filter: saturate(100%);
+}
+
+div.row > div:hover > h2 {
+  /*color: #39AAFF;*/
 }
 
 div.row > div > h2 {
+  /*transition: color 0.2s ease;*/
+  color: #FFFFFF;
+  text-transform: uppercase;
   font-family: 'Paytone One', sans-serif;
   position: absolute;
   top: 44%;
