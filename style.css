@@ -21,6 +21,7 @@ div.row > div:hover > img {
 }
 
 div.row > div > h2 {
+  font-family: 'Paytone One', sans-serif;
   position: absolute;
   top: 44%;
   margin: 0;
