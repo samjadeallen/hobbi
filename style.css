@@ -16,7 +16,7 @@ div.header > h1 {
   font-family: 'Paytone One', sans-serif;
 }
 
-div.row > div > img {
+div.row > div > img, div.row > a > div > img {
   width: 100%;
   height: 100%;
   background-size: 280px;
@@ -26,16 +26,16 @@ div.row > div > img {
   transition: border-radius 0.2s ease, -webkit-filter 0.4s ease;
 }
 
-div.row > div:hover > img {
+div.row > div:hover > img, div.row > a > div:hover > img {
   border-radius: 50%;
   -webkit-filter: saturate(100%);
 }
 
-div.row > div:hover > h2 {
+div.row > div:hover > h2, div.row > a > div:hover > h2 {
   top: 100%;
 }
 
-div.row > div > h2 {
+div.row > div > h2, div.row > a > div > h2 {
   transition: top 0.4s ease-in-out;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -49,7 +49,7 @@ div.row > div > h2 {
   width: 100%;
 }
 
-div.row > div {
+div.row > div, div.row > a > div {
   position: relative;
   width: 200px;
   height: 200px;
