@@ -49,7 +49,7 @@ div.row > img {
   border-radius: 5%;
   margin-left: 30px;
   margin-bottom: 30px;
-  -webkit-filter: saturate(0%);
+  -webkit-filter: saturate(100%);
 
   opacity:0;  /* make things invisible upon start */
   -webkit-animation:pictureIntro ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -75,14 +75,12 @@ div.row > img {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-filter: saturate(0%);
   }
   to {
     opacity:1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    -webkit-filter: saturate(1%);
   }
 }
 @-moz-keyframes pictureIntro {
@@ -91,14 +89,12 @@ div.row > img {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-filter: saturate(0%);
   }
   to {
     opacity:1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    -webkit-filter: saturate(1%);
   }
 }
 @keyframes pictureIntro {
@@ -107,13 +103,11 @@ div.row > img {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
-    -webkit-filter: saturate(0%);
   }
   to {
     opacity:1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    -webkit-filter: saturate(1%);
   }
 }
