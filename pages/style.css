@@ -33,6 +33,7 @@ div.row > img {
   border-radius: 5%;
   margin-left: 30px;
   margin-bottom: 30px;
+  -webkit-filter: saturate(0%);
 
   opacity:0;  /* make things invisible upon start */
   -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -47,9 +48,9 @@ div.row > img {
   -moz-animation-duration:2s;
   animation-duration:2s;
 
-  -webkit-animation-delay: 0.75s;
-  -moz-animation-delay: 0.75s;
-  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.50s;
+  -moz-animation-delay: 0.50s;
+  animation-delay: 0.50s;
 
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
@@ -62,12 +63,14 @@ div.row > img {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
+    -webkit-filter: saturate(0%);
   }
   to {
     opacity:1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    -webkit-filter: saturate(1%);
   }
 }
 @-moz-keyframes fadeIn {
@@ -76,12 +79,14 @@ div.row > img {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
+    -webkit-filter: saturate(0%);
   }
   to {
     opacity:1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    -webkit-filter: saturate(1%);
   }
 }
 @keyframes fadeIn {
@@ -90,12 +95,14 @@ div.row > img {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
     transform: scale(0);
+    -webkit-filter: saturate(0%);
   }
   to {
     opacity:1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+    -webkit-filter: saturate(1%);
   }
 }
 
