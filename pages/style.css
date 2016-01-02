@@ -1,0 +1,17 @@
+body {
+  background: #E78CF8;
+}
+
+div.header > h1 {
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+}
+
+img.main {
+  width: 20%;
+  height: 20%;
+  background-size: 280px;
+  background-position: right;
+  border-radius: 5%;
+  margin-left: 30px;
+}
