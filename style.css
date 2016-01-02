@@ -14,6 +14,22 @@ div.header {
 div.header > h1 {
   text-align: center;
   font-family: 'Paytone One', sans-serif;
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:pictureIntro ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:pictureIntro ease-in 1;
+  animation:pictureIntro ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+  -moz-animation-duration:0.5s;
+  animation-duration:0.5s;
+
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 
 div.row > a > img {
@@ -24,6 +40,23 @@ div.row > a > img {
   -webkit-filter: saturate(0%);
   border-radius: 5%;
   transition: border-radius 0.2s ease, -webkit-filter 0.4s ease;
+
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:pictureIntro ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:pictureIntro ease-in 1;
+  animation:pictureIntro ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+  -moz-animation-duration:0.5s;
+  animation-duration:0.5s;
+
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 
 div.row > a:hover > img {
@@ -47,6 +80,23 @@ div.row > a > h2 {
   left: 0;
   text-align: center;
   width: 100%;
+
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:pictureIntro ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:pictureIntro ease-in 1;
+  animation:pictureIntro ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:0.5s;
+  -moz-animation-duration:0.5s;
+  animation-duration:0.5s;
+
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
 }
 
 div.row > a {
@@ -55,4 +105,48 @@ div.row > a {
   height: 200px;
   float: left;
   margin: 20px;
+}
+
+
+@-webkit-keyframes pictureIntro {
+  from {
+    opacity:0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pictureIntro {
+  from {
+    opacity:0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pictureIntro {
+  from {
+    opacity:0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  to {
+    opacity:1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
 }
