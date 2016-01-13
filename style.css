@@ -1,5 +1,5 @@
 body {
-  background: #E78CF8;
+  background: #F5F3EE;
 }
 
 div.wrapper {
@@ -70,7 +70,7 @@ div.row > a:hover > h2 {
 
 div.row > a > h2 {
   transition: top 0.4s ease-in-out;
-  color: #FFFFFF;
+  color: #DF3D82;
   text-transform: uppercase;
   font-family: 'Paytone One', sans-serif;
   position: absolute;
